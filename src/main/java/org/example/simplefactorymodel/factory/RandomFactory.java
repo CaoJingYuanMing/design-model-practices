@@ -1,8 +1,8 @@
-package org.example.factorymode.factory;
+package org.example.simplefactorymodel.factory;
 
-import org.example.factorymode.enemy.Airplane;
-import org.example.factorymode.enemy.Enemy;
-import org.example.factorymode.enemy.Tank;
+import org.example.simplefactorymodel.enemy.Airplane;
+import org.example.simplefactorymodel.enemy.Enemy;
+import org.example.simplefactorymodel.enemy.Tank;
 
 import java.util.Random;
 

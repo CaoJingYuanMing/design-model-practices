@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="创建工厂模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/BossFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/ApartmentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/HouseBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/factorymode/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/BossFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/BossFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/RandomFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/RandomFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/SimpleFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +60,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.example.factorymode.Player">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="design-model-practice" />
@@ -63,12 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.factorymode.Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.factorymode.Player" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.buildermodel.Client" />
       <module name="design-model-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.factorymode.enemy.*" />
+          <option name="PATTERN" value="org.example.buildermodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.simplefactorymodel.Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.simplefactorymodel.Player" />
+      <module name="design-model-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.simplefactorymodel.enemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,7 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.factorymode.Player" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.org.example.simplefactorymodel.Player" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -93,7 +118,7 @@
       <updated>1666857583815</updated>
       <workItem from="1666857586101" duration="1795000" />
       <workItem from="1667269181740" duration="1461000" />
-      <workItem from="1667271474739" duration="3067000" />
+      <workItem from="1667271474739" duration="10194000" />
     </task>
     <task id="LOCAL-00001" summary="创建工厂模式">
       <created>1667273198644</created>
@@ -102,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667273198644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建工厂模式">
+      <created>1667281110035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667281110035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

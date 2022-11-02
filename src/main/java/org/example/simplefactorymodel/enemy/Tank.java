@@ -1,6 +1,4 @@
-package org.example.factorymode.enemy;
-
-import org.example.factorymode.enemy.Enemy;
+package org.example.simplefactorymodel.enemy;
 
 public class Tank extends Enemy {
 

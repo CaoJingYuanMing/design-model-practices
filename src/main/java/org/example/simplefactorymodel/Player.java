@@ -1,8 +1,8 @@
-package org.example.factorymode;
+package org.example.simplefactorymodel;
 
-import org.example.factorymode.factory.BossFactory;
-import org.example.factorymode.factory.Factory;
-import org.example.factorymode.factory.RandomFactory;
+import org.example.simplefactorymodel.factory.BossFactory;
+import org.example.simplefactorymodel.factory.Factory;
+import org.example.simplefactorymodel.factory.RandomFactory;
 
 public class Player {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package org.example.factorymode.factory;
+package org.example.simplefactorymodel.factory;
 
-import org.example.factorymode.enemy.Boss;
-import org.example.factorymode.enemy.Enemy;
+import org.example.simplefactorymodel.enemy.Boss;
+import org.example.simplefactorymodel.enemy.Enemy;
 
 /**
  * 敌霸工厂类

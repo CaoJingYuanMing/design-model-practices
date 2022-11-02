@@ -1,4 +1,4 @@
-package org.example.factorymode.enemy;
+package org.example.simplefactorymodel.enemy;
 
 public class Airplane extends Enemy {
     public Airplane(int x, int y) {

@@ -1,6 +1,6 @@
-package org.example.factorymode.factory;
+package org.example.simplefactorymodel.factory;
 
-import org.example.factorymode.enemy.Enemy;
+import org.example.simplefactorymodel.enemy.Enemy;
 
 /**
  * 工厂接口

@@ -1,4 +1,4 @@
-package org.example.factorymode.enemy;
+package org.example.simplefactorymodel.enemy;
 
 /**
  * 敌霸
