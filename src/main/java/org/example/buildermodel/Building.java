@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 房子建筑
+ * 房子建筑实体类
  */
 public class Building {
     // 用来模拟房子组件的堆叠

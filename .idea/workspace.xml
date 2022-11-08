@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="创建工厂模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/ApartmentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/HouseBuilder.java" afterDir="false" />
+    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="建造着模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/PhoneDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/AppearanceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/AssembledBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/KernelBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneAppearanceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneAssembledBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneKernelBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/enemy/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/BossFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/BossFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/RandomFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/RandomFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factorymode/factory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/SimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/ApartmentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/ApartmentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/HouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/HouseBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,21 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Client">
+}</component>
+  <component name="RunManager" selected="Application.org.example.buildermodelparctice.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="design-model-practice" />
@@ -87,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.buildermodelparctice.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.buildermodelparctice.Client" />
+      <module name="design-model-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.buildermodelparctice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.simplefactorymodel.Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.simplefactorymodel.Player" />
       <module name="design-model-practice" />
@@ -102,7 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.org.example.buildermodelparctice.Client" />
         <item itemvalue="Application.org.example.simplefactorymodel.Player" />
         <item itemvalue="Application.App" />
       </list>
@@ -118,7 +133,8 @@
       <updated>1666857583815</updated>
       <workItem from="1666857586101" duration="1795000" />
       <workItem from="1667269181740" duration="1461000" />
-      <workItem from="1667271474739" duration="10194000" />
+      <workItem from="1667271474739" duration="14558000" />
+      <workItem from="1667898689543" duration="3365000" />
     </task>
     <task id="LOCAL-00001" summary="创建工厂模式">
       <created>1667273198644</created>
@@ -134,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667281110035</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="建造着模式">
+      <created>1667355526312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667355526312</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建工厂模式" />
+    <MESSAGE value="建造着模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="建造着模式" />
   </component>
 </project>

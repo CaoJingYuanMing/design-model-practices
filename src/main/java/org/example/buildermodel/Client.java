@@ -1,5 +1,9 @@
 package org.example.buildermodel;
 
+import org.example.buildermodel.builder.ApartmentBuilder;
+import org.example.buildermodel.builder.Builder;
+import org.example.buildermodel.builder.HouseBuilder;
+
 public class Client {
     public static void main(String[] args) {
         //招工，建别墅。

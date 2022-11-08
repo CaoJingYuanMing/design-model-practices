@@ -1,4 +1,6 @@
-package org.example.buildermodel;
+package org.example.buildermodel.builder;
+
+import org.example.buildermodel.Building;
 
 /**
  * 高层公寓施工团队

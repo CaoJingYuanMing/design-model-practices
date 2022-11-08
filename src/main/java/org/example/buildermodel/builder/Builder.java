@@ -1,4 +1,6 @@
-package org.example.buildermodel;
+package org.example.buildermodel.builder;
+
+import org.example.buildermodel.Building;
 
 /**
  * 施工方接口
