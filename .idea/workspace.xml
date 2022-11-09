@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="建造着模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/PhoneDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/AppearanceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/AssembledBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/KernelBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneAppearanceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneAssembledBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneKernelBuilder.java" afterDir="false" />
+    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【设计模式】建造者模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/EagerGod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/ApartmentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/ApartmentBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/HouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/HouseBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -134,7 +122,7 @@
       <workItem from="1666857586101" duration="1795000" />
       <workItem from="1667269181740" duration="1461000" />
       <workItem from="1667271474739" duration="14558000" />
-      <workItem from="1667898689543" duration="3365000" />
+      <workItem from="1667898689543" duration="12694000" />
     </task>
     <task id="LOCAL-00001" summary="创建工厂模式">
       <created>1667273198644</created>
@@ -157,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667355526312</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="【设计模式】建造者模式">
+      <created>1667903152257</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667903152257</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建工厂模式" />
     <MESSAGE value="建造着模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="建造着模式" />
+    <MESSAGE value="【设计模式】建造者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="【设计模式】建造者模式" />
   </component>
 </project>
