@@ -1,7 +1,7 @@
 package org.example.singlecasemodel;
 
 /**
- * 痴汉模式 Eager load
+ * 饿汉模式 Eager load
  *
  * 坏处：第一次执行的时候，需要消耗cpu性能去制造神
  * 好处：省了有神期间，不需要重新造神的cpu损耗
