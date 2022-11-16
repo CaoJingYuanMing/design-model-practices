@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【设计模式】单例模式（懒汉模式/痴汉模式）">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classloadorder/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classloadorder/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/classloadorder/Test.java" afterDir="false" />
+    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【类加载顺序】测试代码">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aba/AtomicReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/EagerGod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/EagerGod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.AtomicReferenceDemo">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="design-model-practice" />
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.buildermodel.Client" />
+    <configuration name="AtomicReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.aba.AtomicReferenceDemo" />
       <module name="design-model-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.buildermodel.*" />
+          <option name="PATTERN" value="org.example.aba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicReferenceDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.org.example.buildermodelparctice.Client" />
         <item itemvalue="Application.org.example.simplefactorymodel.Player" />
@@ -138,7 +139,9 @@
       <workItem from="1667271474739" duration="14558000" />
       <workItem from="1667898689543" duration="13532000" />
       <workItem from="1668045692088" duration="1204000" />
-      <workItem from="1668133770233" duration="2695000" />
+      <workItem from="1668133770233" duration="6398000" />
+      <workItem from="1668584203028" duration="1664000" />
+      <workItem from="1668585926078" duration="2741000" />
     </task>
     <task id="LOCAL-00001" summary="创建工厂模式">
       <created>1667273198644</created>
@@ -175,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667979828605</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="【类加载顺序】测试代码">
+      <created>1668149449182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668149449182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +207,7 @@
     <MESSAGE value="建造着模式" />
     <MESSAGE value="【设计模式】建造者模式" />
     <MESSAGE value="【设计模式】单例模式（懒汉模式/痴汉模式）" />
-    <option name="LAST_COMMIT_MESSAGE" value="【设计模式】单例模式（懒汉模式/痴汉模式）" />
+    <MESSAGE value="【类加载顺序】测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="【类加载顺序】测试代码" />
   </component>
 </project>
