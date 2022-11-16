@@ -17,8 +17,6 @@ w
 Gsrc/main/java/org/example/simplefactorymodel/factory/SimpleFactory.java,3/8/38b83b5c0d417514379b0c95085b6887cde09b59
 l
 <src/main/java/org/example/simplefactorymodel/enemy/Tank.java,b/6/b60b258290cdd5b9b33362f8b1fe04868fc6b207
-R
-"src/main/java/org/example/App.java,2/6/268b09d2a5cdab7d148f0ec91f7b3fb51601410d
 e
 5src/main/java/org/example/classloadorder/Animals.java,2/1/21528eba93d783e9f1d52162be4abd8d10d5c0a6
 a

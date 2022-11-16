@@ -4,12 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【类加载顺序】测试代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aba/AtomicReferenceDemo.java" afterDir="false" />
+    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【类加载顺序】测试代码/ 【ABA问题】测试代码">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/prototype/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/prototype/EnemyPlaneFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodel/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodel/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodel/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/ApartmentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodel/builder/ApartmentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodel/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodel/builder/HouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodel/builder/HouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/PhoneDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/PhoneDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/AppearanceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/builder/AppearanceBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/AssembledBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/builder/AssembledBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/KernelBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/builder/KernelBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneAppearanceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/builder/PhoneAppearanceBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneAssembledBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/builder/PhoneAssembledBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/buildermodelparctice/builder/PhoneKernelBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/buildermodelparctice/builder/PhoneKernelBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classloadorder/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/classloadorder/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classloadorder/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/classloadorder/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classloadorder/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/classloadorder/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/enemy/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/enemy/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/enemy/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/enemy/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/BossFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/factory/BossFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/RandomFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/factory/RandomFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/simplefactorymodel/factory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/simplefactorymodel/factory/SimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/EagerGod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/singlecasemodel/EagerGod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/singlecasemodel/LazyGod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singlecasemodel/LazyGod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationtype/singlecasemodel/LazyGod2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +80,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.AtomicReferenceDemo">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.creationtype.prototype" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="design-model-practice" />
@@ -70,6 +105,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.aba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.creationtype.prototype.Client" />
+      <module name="design-model-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.creationtype.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.simplefactorymodel.Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.simplefactorymodel.Player" />
-      <module name="design-model-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.simplefactorymodel.enemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.AtomicReferenceDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.org.example.buildermodelparctice.Client" />
-        <item itemvalue="Application.org.example.simplefactorymodel.Player" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +176,7 @@
       <workItem from="1668045692088" duration="1204000" />
       <workItem from="1668133770233" duration="6398000" />
       <workItem from="1668584203028" duration="1664000" />
-      <workItem from="1668585926078" duration="2741000" />
+      <workItem from="1668585926078" duration="6070000" />
     </task>
     <task id="LOCAL-00001" summary="创建工厂模式">
       <created>1667273198644</created>
@@ -185,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668149449182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="【类加载顺序】测试代码/ 【ABA问题】测试代码">
+      <created>1668590453553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668590453553</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +250,7 @@
     <MESSAGE value="【设计模式】建造者模式" />
     <MESSAGE value="【设计模式】单例模式（懒汉模式/痴汉模式）" />
     <MESSAGE value="【类加载顺序】测试代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="【类加载顺序】测试代码" />
+    <MESSAGE value="【类加载顺序】测试代码/ 【ABA问题】测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="【类加载顺序】测试代码/ 【ABA问题】测试代码" />
   </component>
 </project>
