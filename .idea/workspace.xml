@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【更改目录结构】增加原型模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/ClassAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/DualPin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuraltype/adapter/TriplePin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +60,7 @@
       <recent name="org.example.creationtype.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.org.example.structuraltype.adapter.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="design-model-practice" />
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.buildermodelparctice.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.buildermodelparctice.Client" />
+    <configuration name="org.example.structuraltype.adapter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.structuraltype.adapter.Client" />
       <module name="design-model-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.buildermodelparctice.*" />
+          <option name="PATTERN" value="org.example.structuraltype.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.structuraltype.adapter.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.AtomicReferenceDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.org.example.buildermodelparctice.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +151,8 @@
       <workItem from="1668045692088" duration="1204000" />
       <workItem from="1668133770233" duration="6398000" />
       <workItem from="1668584203028" duration="1664000" />
-      <workItem from="1668585926078" duration="6682000" />
+      <workItem from="1668585926078" duration="10689000" />
+      <workItem from="1668762216042" duration="4516000" />
     </task>
     <task id="LOCAL-00001" summary="创建工厂模式">
       <created>1667273198644</created>
@@ -200,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668594022668</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="【更改目录结构】增加原型模式">
+      <created>1668594377960</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668594377960</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
