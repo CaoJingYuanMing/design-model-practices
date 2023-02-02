@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class Client {
     public static void main(String[] args) {
+        /**
+         * 解释器
+         *
+         * 终极与非终极表达式的区别、表达式的多态性、以及表达式的自包含关系结构。
+         * 可以考虑拆解元素
+         */
+
         /*
          * BEGIN             // 脚本开始
          * MOVE 500,600;     // 鼠标移动到坐标(500, 600)
