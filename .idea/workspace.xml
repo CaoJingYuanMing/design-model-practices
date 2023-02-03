@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【add】解释器模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/abstractmode/Bat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/abstractmode/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/abstractmode/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/abstractmode/Whale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/interfacemode/CigarLighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/interfacemode/CigarLighterInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/interfacemode/GPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/templatemodetest/AutoTestPM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/templatemodel/templatemodetest/PM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="e4d140fc-742e-4686-8d88-577d0f7681cf" name="Changes" comment="【add】解释器模式 and 模版模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/chaincodeflow/Approver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/chaincodeflow/CEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/chaincodeflow/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/chaincodeflow/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/chaincodeflow/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/normalflow/CEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/normalflow/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/normalflow/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioraltype/chainresponsibility/normalflow/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <recent name="org.example.creationtype.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.behavioraltype.interpretermodel.Client">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="AnnotationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.aba.testfunction.AnnotationClient" />
       <module name="design-model-practice" />
@@ -76,11 +75,24 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.structuraltype.facademodel.Client" />
+      <option name="MAIN_CLASS_NAME" value="org.example.behavioraltype.chainresponsibility.chaincodeflow.Client" />
       <module name="design-model-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.structuraltype.facademodel.*" />
+          <option name="PATTERN" value="org.example.behavioraltype.chainresponsibility.chaincodeflow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.behavioraltype.chainresponsibility.normalflow.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.behavioraltype.chainresponsibility.normalflow.Client" />
+      <module name="design-model-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.behavioraltype.chainresponsibility.normalflow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.behavioraltype.interpretermodel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.structuraltype.flyweight.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.structuraltype.flyweight.Client" />
-      <module name="design-model-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.structuraltype.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.org.example.behavioraltype.chainresponsibility.normalflow.Client" />
         <item itemvalue="Application.org.example.behavioraltype.interpretermodel.Client" />
         <item itemvalue="Application.org.example.structuraltype.proxy.Client" />
         <item itemvalue="Application.AnnotationClient" />
-        <item itemvalue="Application.org.example.structuraltype.flyweight.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +159,7 @@
       <workItem from="1675072908324" duration="42509000" />
       <workItem from="1675304332707" duration="16000" />
       <workItem from="1675304373925" duration="15711000" />
-      <workItem from="1675403202815" duration="401000" />
+      <workItem from="1675403202815" duration="3586000" />
     </task>
     <task id="LOCAL-00001" summary="创建工厂模式">
       <created>1667273198644</created>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675323761290</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="【add】解释器模式 and 模版模式">
+      <created>1675403763848</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675403763848</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +326,8 @@
     <MESSAGE value="【add】享元模式" />
     <MESSAGE value="【add】代理模式（动态代理和静态代理）" />
     <MESSAGE value="【add】解释器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="【add】解释器模式" />
+    <MESSAGE value="【add】解释器模式 and 模版模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="【add】解释器模式 and 模版模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
