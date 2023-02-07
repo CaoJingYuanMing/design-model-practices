@@ -1,5 +1,8 @@
 package org.example.behavioraltype.observermodel;
 
+/**
+ * 观察者模式
+ */
 public class Client {
     public static void main(String[] args) {
         /**
