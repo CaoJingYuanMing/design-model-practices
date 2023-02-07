@@ -29,10 +29,18 @@ public class Doc {
         this.body = body;
     }
 
+    /**
+     *  创建历史记录信息
+     * @return 历史记录信息
+     */
     public History createHistory() {
         return new History(body);//创建历史记录
     }
 
+    /**
+     * 储存历史
+     * @param history
+     */
     public void restoreHistory(History history) {
         this.body = history.getBody();//恢复历史记录
     }

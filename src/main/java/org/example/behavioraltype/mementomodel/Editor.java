@@ -49,7 +49,7 @@ public class Editor {
     }
 
     /**
-     * 撤销键
+     * 撤销键 类似与ctrl + z
      */
     public void undo() {
         // 撤销操作：如按下Ctr+Z，回到过去。
